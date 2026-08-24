@@ -41,11 +41,89 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [Fossel](https://github.com/7vignesh/fossel)
+**Local-first MCP memory for every repo you work on.** Store conventions, bug fixes, reviewer patterns, and decisions in SQLite on your machine with FTS5 search. Works with Cursor, Claude Desktop, and any stdio MCP client. No accounts, no cloud.
+
+`TypeScript` `SQLite` `MCP` `FTS5`
+
+**[→ github.com/7vignesh/fossel](https://github.com/7vignesh/fossel)**
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ [SpecTruth](https://github.com/7vignesh/spectruth)
+**Done-integrity auditor for AI coding agents.** When an agent marks a spec task complete, SpecTruth audits the claim against acceptance criteria using deterministic static evidence - no scores, no confidence values, just READY / BLOCKED / REVIEW_REQUIRED.
+
+`TypeScript` `Kiro` `Spec-Driven` `Static Analysis`
+
+**[→ github.com/7vignesh/spectruth](https://github.com/7vignesh/spectruth)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 [PgPulse](https://github.com/litepacks/pgpulse)
+**Terminal-based live monitoring tool for PostgreSQL** (like `top`/`htop` for Postgres). Reads `pg_stat_activity`, `pg_stat_statements`, locks, and table/index summaries with low overhead. Features a 5-slot ring buffer for 10-second activity windows and delta mode for statement stats.
+
+`JavaScript` `PostgreSQL` `TUI` `neo-blessed`
+
+**[→ github.com/litepacks/pgpulse](https://github.com/litepacks/pgpulse)**
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ### 🌱 Open Source
 
 Active contributor to **[Tracer-Cloud/OpenSRE](https://github.com/Tracer-Cloud)** — 25+ merged PRs on agentic observability/SRE tooling.
+
+Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/agentfield)** — 20 merged PRs across the control plane, Go/Python/TypeScript SDKs, and security hardening.
+
+<details>
+<summary>Merged PRs to AgentField</summary>
+
+| # | Title |
+|---|---|
+| [#952](https://github.com/Agent-Field/agentfield/pull/952) | feat(control-plane): add per-key rate limiting on hot endpoints |
+| [#945](https://github.com/Agent-Field/agentfield/pull/945) | fix(execute): propagate agent 4xx in async lane instead of blanket 502 |
+| [#943](https://github.com/Agent-Field/agentfield/pull/943) | fix(execute): resolve webhook not triggering on async status callback |
+| [#917](https://github.com/Agent-Field/agentfield/pull/917) | feat(examples): triggers-demo-go end-to-end demo + Go skill docs |
+| [#915](https://github.com/Agent-Field/agentfield/pull/915) | feat(sdk/go): trigger test helpers + fixture library |
+| [#914](https://github.com/Agent-Field/agentfield/pull/914) | feat(sdk/go): dispatch envelope unwrap + Context injection |
+| [#906](https://github.com/Agent-Field/agentfield/pull/906) | feat(sdk/go): triggers package + OnEvent/OnSchedule sugar |
+| [#904](https://github.com/Agent-Field/agentfield/pull/904) | fix(sdk/python): add lock timeouts + offload blocking requests fallback |
+| [#899](https://github.com/Agent-Field/agentfield/pull/899) | fix(sdk/python): replace bare asyncio.run() with loop-aware helpers |
+| [#812](https://github.com/Agent-Field/agentfield/pull/812) | chore(sdk/python): enable ruff ASYNC lint rules to gate async/blocking hazards |
+| [#799](https://github.com/Agent-Field/agentfield/pull/799) | fix(sdk/python): resolve ResultCache cross-loop deadlock |
+| [#796](https://github.com/Agent-Field/agentfield/pull/796) | feat(sdk/typescript): trigger system parity - dispatch, sugar, testing, demo |
+| [#794](https://github.com/Agent-Field/agentfield/pull/794) | test(sdk/python): expand verification.py coverage to 100% |
+| [#790](https://github.com/Agent-Field/agentfield/pull/790) | fix(security): SSRF protection for approval callback_url |
+| [#743](https://github.com/Agent-Field/agentfield/pull/743) | feat(sdk/ts): add trigger types, factories, and registration plumbing |
+| [#724](https://github.com/Agent-Field/agentfield/pull/724) | fix(sdk/go): rewrite max_tokens to max_completion_tokens for newer OpenAI models |
+| [#717](https://github.com/Agent-Field/agentfield/pull/717) | fix(control-plane): add timestamp freshness checks to prevent webhook replay attacks |
+| [#716](https://github.com/Agent-Field/agentfield/pull/716) | fix(control-plane): flush SSE headers immediately in memory events handler |
+| [#715](https://github.com/Agent-Field/agentfield/pull/715) | fix(control-plane): implement graceful shutdown on SIGTERM/SIGINT |
+| [#701](https://github.com/Agent-Field/agentfield/pull/701) | fix(control-plane): prevent structured logs from leaking execution payloads |
+
+</details>
+
+Active contributor to **[supabase/supabase-js](https://github.com/supabase/supabase-js)** — open PRs on auth and PostgREST type improvements.
+
+<details>
+<summary>Open PRs to supabase-js</summary>
+
+| # | Title | Status |
+|---|---|---|
+| [#2573](https://github.com/supabase/supabase-js/pull/2573) | feat(auth): add maxAutoRefreshFailures option | 🟡 Open |
+| [#2445](https://github.com/supabase/supabase-js/pull/2445) | fix(postgrest): add typed column inference for order() with referencedTable | 🟡 Open |
+
+</details>
 
 <br/>
 
