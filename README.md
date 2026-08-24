@@ -195,16 +195,6 @@ Active contributor to **[supabase/supabase-js](https://github.com/supabase/supab
 
 <br/>
 
-## 📊 GitHub Stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=7vignesh&theme=dark&hide_border=true&include_all_commits=false&count_private=false" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=7vignesh&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" />
-</p>
-<p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=7vignesh&theme=dark&hide_border=true" />
-</p>
-
-<br/>
 
 <p align="center"><i>Open to full-stack / AI-tooling roles — always happy to talk about agentic engineering.</i></p>
