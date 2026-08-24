@@ -81,7 +81,27 @@
 
 ### 🌱 Open Source
 
-Active contributor to **[Tracer-Cloud/OpenSRE](https://github.com/Tracer-Cloud)** — 25+ merged PRs on agentic observability/SRE tooling.
+Active contributor to **[Tracer-Cloud/OpenSRE](https://github.com/Tracer-Cloud/opensre)** — 12 merged PRs on agentic observability/SRE tooling.
+
+<details>
+<summary>Merged PRs to OpenSRE</summary>
+
+| # | Title |
+|---|---|
+| [#3821](https://github.com/Tracer-Cloud/opensre/pull/3821) | fix(delivery): align error shapes across messaging delivery modules |
+| [#2222](https://github.com/Tracer-Cloud/opensre/pull/2222) | feat(scheduler): add cron-driven scheduled deliveries to messaging providers |
+| [#1714](https://github.com/Tracer-Cloud/opensre/pull/1714) | feat(messaging): add identity model, DM pairing, and tool approval metadata |
+| [#1570](https://github.com/Tracer-Cloud/opensre/pull/1570) | fix(synthetic-tests): skip E2E tests gracefully when LLM credentials are missing |
+| [#1404](https://github.com/Tracer-Cloud/opensre/pull/1404) | feat(interactive-shell): run_cli_command supports full opensre subcommand surface |
+| [#1037](https://github.com/Tracer-Cloud/opensre/pull/1037) | refactor(tools): centralize code-host unavailable payload for code-host tools |
+| [#1017](https://github.com/Tracer-Cloud/opensre/pull/1017) | test(tools): add unit tests for Bitbucket tools |
+| [#1015](https://github.com/Tracer-Cloud/opensre/pull/1015) | test(cli): add direct unit tests for CLI layout renderers |
+| [#1007](https://github.com/Tracer-Cloud/opensre/pull/1007) | test(tools): add unit tests for Azure Monitor Logs tool |
+| [#977](https://github.com/Tracer-Cloud/opensre/pull/977) | feat(alerts): normalize incoming payloads to OpenSRE canonical format |
+| [#958](https://github.com/Tracer-Cloud/opensre/pull/958) | refactor(wizard): split integration health validators into grouped modules |
+| [#957](https://github.com/Tracer-Cloud/opensre/pull/957) | refactor(wizard): migrate Slack webhook validation from requests to httpx |
+
+</details>
 
 Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/agentfield)** — 20 merged PRs across the control plane, Go/Python/TypeScript SDKs, and security hardening.
 
