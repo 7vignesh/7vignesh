@@ -103,13 +103,17 @@ Active contributor to **[Tracer-Cloud/OpenSRE](https://github.com/Tracer-Cloud/o
 
 </details>
 
-Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/agentfield)** — 20 merged PRs across the control plane, Go/Python/TypeScript SDKs, and security hardening.
+Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/agentfield)** — 24 merged PRs across the control plane, Go/Python/TypeScript SDKs, and security hardening.
 
 <details>
 <summary>Merged PRs to AgentField</summary>
 
 | # | Title |
 |---|---|
+| [#996](https://github.com/Agent-Field/agentfield/pull/996) | fix(control-plane): skip disk payload writes in postgres storage mode |
+| [#975](https://github.com/Agent-Field/agentfield/pull/975) | refactor(handlers): split execute.go into focused files (3048 -> 807 LOC) |
+| [#959](https://github.com/Agent-Field/agentfield/pull/959) | refactor(storage): split local.go into focused files (9009 -> 5917 LOC) |
+| [#958](https://github.com/Agent-Field/agentfield/pull/958) | fix(sdk/go): propagate caller context through MemoryBackend interface |
 | [#952](https://github.com/Agent-Field/agentfield/pull/952) | feat(control-plane): add per-key rate limiting on hot endpoints |
 | [#945](https://github.com/Agent-Field/agentfield/pull/945) | fix(execute): propagate agent 4xx in async lane instead of blanket 502 |
 | [#943](https://github.com/Agent-Field/agentfield/pull/943) | fix(execute): resolve webhook not triggering on async status callback |
