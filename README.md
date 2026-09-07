@@ -3,7 +3,7 @@
 <h3 align="center">Full-Stack Engineer · Building AI-native dev tools</h3>
 
 <p align="center">
-  I design and ship products end-to-end — architecture, backend, frontend, and the AI workflows that build them faster.
+  I design and ship products end-to-end architecture, backend, frontend, and the AI workflows that build them faster.
   Currently exploring what it takes to make AI coding agents actually <em>reliable</em>, not just fast.
 </p>
 
