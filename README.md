@@ -150,6 +150,23 @@ Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/
 
 </details>
 
+Active contributor to **[Agent-Field/CodeAF](https://github.com/Agent-Field/CodeAF)** — 7 merged PRs on the open-source software factory for open models.
+
+<details>
+<summary>Merged PRs to CodeAF</summary>
+
+| # | Title |
+|---|---|
+| [#2852](https://github.com/Agent-Field/CodeAF/pull/2852) | approval: a recursive delete asks in any spelling, and a no covers the act |
+| [#2674](https://github.com/Agent-Field/CodeAF/pull/2674) | chat: one approval vocabulary - tool approvals, ask / allow / block |
+| [#2097](https://github.com/Agent-Field/CodeAF/pull/2097) | session: a worker may not replace the git metadata of the folder it was given |
+| [#1886](https://github.com/Agent-Field/CodeAF/pull/1886) | docs: the tasks manual points task.parallel at Tasks, not Spending |
+| [#1842](https://github.com/Agent-Field/CodeAF/pull/1842) | session: the daily spend ceiling binds task and errand turns too |
+| [#1796](https://github.com/Agent-Field/CodeAF/pull/1796) | census: the call row carries the demanded set, so served != lane means what it says again |
+| [#1746](https://github.com/Agent-Field/CodeAF/pull/1746) | chat: a bare number-and-period reply draws instead of vanishing |
+
+</details>
+
 Active contributor to **[supabase/supabase-js](https://github.com/supabase/supabase-js)** — open PRs on auth and PostgREST type improvements.
 
 <details>
