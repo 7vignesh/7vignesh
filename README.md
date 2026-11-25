@@ -103,13 +103,26 @@ Active contributor to **[Tracer-Cloud/OpenSRE](https://github.com/Tracer-Cloud/o
 
 </details>
 
-Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/agentfield)** — 24 merged PRs across the control plane, Go/Python/TypeScript SDKs, and security hardening.
+Active contributor to **[Agent-Field/agentfield](https://github.com/Agent-Field/agentfield)** — 37 merged PRs across the control plane, Go/Python/TypeScript SDKs, and security hardening.
 
 <details>
 <summary>Merged PRs to AgentField</summary>
 
 | # | Title |
 |---|---|
+| [#1124](https://github.com/Agent-Field/agentfield/pull/1124) | fix(control-plane): return 503 for transient storage errors during DID resolution |
+| [#1092](https://github.com/Agent-Field/agentfield/pull/1092) | feat: configurable PromptTemplates layer across Python/TS/Go SDKs |
+| [#1074](https://github.com/Agent-Field/agentfield/pull/1074) | feat(go-sdk): add harness doctor preflight and provider availability specs |
+| [#1063](https://github.com/Agent-Field/agentfield/pull/1063) | fix(control-plane): don't reap a parent whose child just finished |
+| [#1057](https://github.com/Agent-Field/agentfield/pull/1057) | feat(go-sdk): add Cursor CLI harness provider |
+| [#1052](https://github.com/Agent-Field/agentfield/pull/1052) | ci(python-sdk): enforce mypy with module-by-module allowlist ratchet |
+| [#1049](https://github.com/Agent-Field/agentfield/pull/1049) | fix(go-sdk): make harness schema path tests OS-portable |
+| [#1041](https://github.com/Agent-Field/agentfield/pull/1041) | fix(control-plane): compare execution timestamps by instant on SQLite |
+| [#1035](https://github.com/Agent-Field/agentfield/pull/1035) | fix(sdk/python): coerce complex pydantic type hints in reasoner args |
+| [#1015](https://github.com/Agent-Field/agentfield/pull/1015) | test(handlers): cover discovery.go filter parsing helpers |
+| [#1014](https://github.com/Agent-Field/agentfield/pull/1014) | test(events): cover node/exec/reasoner publish + dedupe helpers |
+| [#1012](https://github.com/Agent-Field/agentfield/pull/1012) | test(storage): add composite-PK migration + autoMigrateSchema tests |
+| [#1009](https://github.com/Agent-Field/agentfield/pull/1009) | feat(sdk/go): add AI rate limiter with backoff and circuit breaker |
 | [#996](https://github.com/Agent-Field/agentfield/pull/996) | fix(control-plane): skip disk payload writes in postgres storage mode |
 | [#975](https://github.com/Agent-Field/agentfield/pull/975) | refactor(handlers): split execute.go into focused files (3048 -> 807 LOC) |
 | [#959](https://github.com/Agent-Field/agentfield/pull/959) | refactor(storage): split local.go into focused files (9009 -> 5917 LOC) |
